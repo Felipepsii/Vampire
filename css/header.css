@@ -99,7 +99,7 @@ header {
 
 
 #check:checked ~ .barra{
-    transform: translateX(300px);
+    transform: translateX(3a00px);
     filter: drop-shadow(5px 5px 10px #000);
 
 }
