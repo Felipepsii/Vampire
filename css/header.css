@@ -63,10 +63,10 @@ header {
     background-image: url("../img/couro1.png");
     background-repeat: repeat/no-repeat;
     height: 100%;
-    width: 300px;
+    width: 200px;
     position: absolute;
     transition: all .2s linear;
-    left: -300px;
+    left: -200px;
     border-radius: 0 10px;
     font-weight: 700;
 }
@@ -85,7 +85,7 @@ header {
 .link{
     background-color: var(--red);
     padding: 20px;
-    font-size: 20pt;
+    font-size: 16pt;
     transition: 0.2s linear;
     color: #f4f4f9;
     border-bottom: 2px solid rgb(155, 10, 10);
@@ -99,7 +99,7 @@ header {
 
 
 #check:checked ~ .barra{
-    transform: translateX(3a00px);
+    transform: translateX(200px);
     filter: drop-shadow(5px 5px 10px #000);
 
 }
