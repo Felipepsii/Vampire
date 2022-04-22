@@ -28,10 +28,10 @@
 }
 
 body{
-    background-image: url(../img/bg_woman.jfif);
+    background-image: url(../img/bg_cad.jpg_large);
     background-size: cover;
     background-position: center center;
-    background-size: 120%;
+    background-size: 100%;
     
 
 }
@@ -113,6 +113,7 @@ button{
     outline: none;
     width: 30%;
     transition: all .5s ease-in-out;
+    color: white;
 
 }
 
@@ -155,4 +156,30 @@ a:hover{
     top: 13px;
     right: 10px;
     cursor: pointer;
+}
+
+#msgError{
+    text-align: center;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none ;
+}
+
+#msgSuccess{
+    text-align: center;
+    background-color: #dcffd5;
+    padding: 10px;
+    border-radius: 4px;
+    display: none ;
+
+}
+
+#msgSuccess strong{
+    color: #00eb17;
+}
+
+#msgError strong{
+    color: #FF0000 ;
+
 }
