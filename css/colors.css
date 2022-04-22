@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
 :root{
     --red: rgb(104, 0, 0);
     --hred:rgb(52, 0, 0);
@@ -5,6 +9,12 @@
     --bg: rgb(235, 228, 217);
     /* --bh:white; */
 
-    
+    --titulo:rgb(255, 255, 255);
+    --titulo-hover:rgb(255, 42, 42);
+
+    /* --main-font: 'Permanent Marker', cursive; */
+    --main-font: 'Passion One', cursive;
+
+
 
 }
