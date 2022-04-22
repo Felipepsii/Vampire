@@ -28,7 +28,7 @@ let tokenReal = ('#bif')
 player.addEventListener('keyup', () => {
     if(player.value.length <= 2){
         labelPlayer.setAttribute('style', 'color: red')
-        labelPlayer.innerHTML = 'Pogin *Insira no minimo 3 caracteres*'
+        labelPlayer.innerHTML = 'Player *Insira no minimo 3 caracteres*'
         player.setAttribute('style', 'border-color:red')
         validPlayer = false
 
