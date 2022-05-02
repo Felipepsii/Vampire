@@ -111,7 +111,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    width: 30%;
+    width: 80px;
     transition: all .5s ease-in-out;
 
 }
@@ -121,7 +121,7 @@ button:hover{
     
     border-color: rgb(98, 46, 0);
     transition: all .5s ease-in-out;
-    width: 50%;    
+    width: 135px;    
 }
 
 .justify-center{
@@ -141,7 +141,7 @@ p{
     text-align: center;
 }
 
-a{
+a{  
     color: #c00006;
     transition: all .2s ease-in-out;
 }

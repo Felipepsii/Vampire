@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="Felipepsi">
+    <!-- fontes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+
+
+    <!-- Fim fontes  -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/ficha.css">
+    <link rel="stylesheet" href="../css/colors.css">
+  
+    <title>Vampire Sistema</title> 
+</head>
+
+<body class="body">
+    <header>
+        <!-- menu lateral -->
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="../img/menu.png"></label>
+        <div class="barra">
+            <nav class="navbar">
+                
+
+            <a href="#"><div class="link">Teste 1</div></a>
+            <a href="#"><div class="link">Teste 2</div></a>
+            <a href="#"><div class="link">Teste 3</div></a>
+            <a href="#"><div class="link">Teste 4</div></a>
+            <a href="#"><div class="link">Teste 5</div></a>
+                </nav>
+            </div>
+            
+        <div class="inner_header">
+            <div class="logo_container">
+                <a href="#"><img src="../img/vampire_logo.png" alt=""></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="container">
+      
+        <div class="caixa caixa1">
+
+            <h2>NOME</h2>
+
+
+
+            <div class="linha"><hr></div>
+
+            <table class="basico">
+                <tr>
+                    <td>
+                        <p>Conceito: </p>
+
+                        <input type="text" placeholder="Conceito">
+                    </td>
+                    <td>
+                        <p>Criador: </p>
+
+                        <input type="text" placeholder="Criador">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Player: </p>
+                        <input type="text" placeholder="Player">
+                    </td>
+                    <td>
+                        <label for="clan">Clan:</label>
+
+                        <select name="clan" id="clan">
+                            <option value="brujah">Brujah</option>
+                            <option value="gangrel">Gangrel</option>
+                            <option value="malkavianos">Malkavianos</option>
+                            <option value="nosferatu">Nosferatu</option>
+                            <option value="toreador">Toreador</option>
+                            <option value="tremere">Tremere</option>
+                            <option value="Ventrue">Ventrue</option>
+                            <option value="caitiff">Caitiff</option>
+                            <option value="sanguefraco">Sangue-Fraco</option>
+
+                        </select>
+                    </td>
+                   
+                    
+
+                </tr>                
+                <tr>
+                    <td>
+                        <p>Ambição: </p>
+
+                        <input type="text" placeholder="Ambição">
+                    </td>
+                    <td>
+                        <label for="predator">Predador:</label>
+
+                        <select name="predator" id="predator">
+                            <option value="consensualista">Consensualista</option>
+                            <option value="fazendeiro">Fazendeiro</option>
+                            <option value="osiris">Osíris</option>
+                            <option value="sacoleiro">Sacoleiro</option>
+                            <option value="sandman">Sandman</option>
+                            <option value="sanguesuga">Sanguesuga</option>
+                            <option value="scenequeen">Scene Queen</option>
+                            <option value="sereia">Sereia</option>
+                            <option value="trinchador">Trinchador</option>
+                            <option value="viralata">Vira-lata</option>
+                        </select>
+                    </td>                    
+
+                </tr>                
+                <tr>
+                    <td>
+                        <p>História: </p>
+
+                        <input type="text" placeholder="História">
+                    </td>
+
+                    <td>
+                        <p>Geração: </p>
+
+                        <input type="text" placeholder="Geração" maxlength="2">
+                    </td>
+                </tr>
+            </table>
+
+
+            <div class="linha"><hr><hr></div>
+
+
+            <div class="pontos">
+
+                <div class="vit">
+                    <p>Vitalidade</p>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+
+                <div class="vont">
+                    <p>Força de Vontade</p>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+
+            </div>
+            <div class="linha"><hr> <hr></div>
+
+
+            <div class="hit">
+                <div class="hunger">
+                    <p>FOME</p>
+                    <div>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    </div>
+                </div>
+
+                <div class="linha"><hr></div>
+
+
+                <div class="human">
+                    <p>Humanidade</p>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+            </div>
+
+        </div>
+      
+        <div class="caixa caixa2">
+
+                <h2>ATRIBUTOS</h2>
+    
+                <div class="linha"><hr></div>
+    
+                <table class="basico">
+                    <tr>
+                        <td>
+                            <p>Conceito: </p>
+    
+                            <input type="text" placeholder="Conceito">
+                        </td>
+                        <td>
+                            <p>Criador: </p>
+    
+                            <input type="text" placeholder="Criador">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <p>Player: </p>
+                            <input type="text" placeholder="Player">
+                        </td>
+                        <td>
+                            <label for="clan">Clan:</label>
+    
+                            <select name="clan" id="clan">
+                                <option value="brujah">Brujah</option>
+                                <option value="gangrel">Gangrel</option>
+                                <option value="malkavianos">Malkavianos</option>
+                                <option value="nosferatu">Nosferatu</option>
+                                <option value="toreador">Toreador</option>
+                                <option value="tremere">Tremere</option>
+                                <option value="Ventrue">Ventrue</option>
+                                <option value="caitiff">Caitiff</option>
+                                <option value="sanguefraco">Sangue-Fraco</option>
+    
+                            </select>
+                        </td>
+                       
+                        
+    
+                    </tr>                
+                    <tr>
+                        <td>
+                            <p>Ambição: </p>
+    
+                            <input type="text" placeholder="Ambição">
+                        </td>
+                        <td>
+                            <label for="predator">Predador:</label>
+    
+                            <select name="predator" id="predator">
+                                <option value="consensualista">Consensualista</option>
+                                <option value="fazendeiro">Fazendeiro</option>
+                                <option value="osiris">Osíris</option>
+                                <option value="sacoleiro">Sacoleiro</option>
+                                <option value="sandman">Sandman</option>
+                                <option value="sanguesuga">Sanguesuga</option>
+                                <option value="scenequeen">Scene Queen</option>
+                                <option value="sereia">Sereia</option>
+                                <option value="trinchador">Trinchador</option>
+                                <option value="viralata">Vira-lata</option>
+                            </select>
+                        </td>                    
+    
+                    </tr>                
+                    <tr>
+                        <td>
+                            <p>História: </p>
+    
+                            <input type="text" placeholder="História">
+                        </td>
+    
+                        <td>
+                            <p>Geração: </p>
+    
+                            <input type="text" placeholder="Geração" maxlength="2">
+                        </td>
+                    </tr>
+                </table>
+    
+    
+                <div class="linha"><hr><hr></div>
+    
+    
+                <div class="pontos">
+    
+                    <div class="vit">
+                        <p>Vitalidade</p>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+    
+                    <div class="vont">
+                        <p>Força de Vontade</p>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+    
+                </div>
+                <div class="linha"><hr> <hr></div>
+    
+    
+                <div class="hit">
+                    <div class="hunger">
+                        <p>FOME</p>
+                        <div>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        </div>
+                    </div>
+    
+                    <div class="linha"><hr></div>
+    
+    
+                    <div class="human">
+                        <p>Humanidade</p>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+                </div>
+    
+            </div>      
+      
+        <div class="caixa caixa3">
+            <h2>Lorem ipsum dolor sit.</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci repellat molestias numquam voluptatibus itaque. Dolorem!</p>
+        </div>
+      
+        <div class="caixa caixa4">
+            <h2>Lorem ipsum dolor sit.</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci repellat molestias numquam voluptatibus itaque. Dolorem!</p>
+        </div>
+
+        
+        </div>
+
+
+    </section>
+
+
+
+
+</body>
+
+
+</html>
