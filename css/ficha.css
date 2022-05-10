@@ -7,7 +7,14 @@ body {
     background-image: url("../img/papel1.webp");
 }
 
-
+.vertical{ 
+  
+    border:         none;
+    border-left:    1px solid black;
+    height:        150px;
+    width:          1px;   
+    margin: 10px 10px;    
+}
 
 .container {
     
@@ -161,3 +168,63 @@ table{
     align-content: center;
     justify-content: space-between;
 }
+
+.atributos{
+    display: flex;
+    /* background-color: blue; */
+    padding: 0px;
+
+    margin: 20px 0px;
+
+}
+
+.atributos p{
+    display: flex;
+        font-size: 20px;
+ 
+}
+
+.atributos div div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: chocolate; */
+
+}
+.atributos div div div{
+    margin: 15px 0;
+
+}
+
+.atributos div input{
+    margin: 0 3px;
+    size: 10px;
+    transform: scale(1.3);
+
+}
+
+.fisicos,
+.sociais,
+.mentais{
+    padding-top: 0,5em;
+    text-align: center;
+    width: 300px;
+}
+
+.fisicos{
+    /* background-color: blueviolet; */
+    
+}
+
+
+.sociais{
+    /* background-color: rgb(43, 226, 134); */
+}
+
+
+.mentais{
+    /* background-color: rgb(198, 226, 43); */
+}
+
+
+
