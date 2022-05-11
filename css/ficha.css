@@ -228,3 +228,40 @@ table{
 
 
 
+.pontosd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pontosd .potsan{    
+    padding: 15px;
+    text-align: center;
+
+}
+
+.pontosd .potsan input{   
+    margin-left: 5px; 
+    transform: scale(1.3)
+    
+}
+
+.pontosd .res{
+    padding: 15px;
+
+}
+
+.pontosd .res p{
+    text-align: center;
+
+}
+
+.pontosd select{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+}
+
